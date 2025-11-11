@@ -2,7 +2,7 @@ export interface recipe {
     title: string;
     description: string;
     image: string; // path to image
-    type:
+    type: recipeTypes;
 }
 
 export enum recipeTypes {
