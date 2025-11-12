@@ -9,9 +9,7 @@
 		"dev-tsc": "ts-node-dev --respawn --transpile-only src/index.ts"
 	},
 	"dependencies": {
-		"@types/next": "^9.0.0",
-		"@types/react": "^19.2.3",
-		"@types/react-dom": "^19.2.2",
+		"dotenv": "^17.2.3",
 		"next": "^16.0.1",
 		"nodemon": "^3.1.11",
 		"react": "^19.2.0",
@@ -20,5 +18,10 @@
 		"tsc": "^2.0.4",
 		"tsx": "^4.20.6",
 		"typescript": "^5.9.3"
+	},
+	"devDependencies": {
+		"@types/next": "^8.0.7",
+		"@types/react": "^19.2.3",
+		"@types/react-dom": "^19.2.3"
 	}
 }

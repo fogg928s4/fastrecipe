@@ -274,7 +274,7 @@ h1 {
 
 h4 {
 	font-size: 25px;
-	color: #00000;
+	color: #000000;
 	}
 
 /* Paragraph & Typographic */
@@ -311,7 +311,7 @@ p {
 .panel-body h5	{
 	color: white;
 	background-color: none;
-	font-family]: Francois One, sans-serif;
+	font-family: Francois One, sans-serif;
 }
 .panel-footer {
 	background-color: none;
@@ -482,3 +482,4 @@ a.hover:hover{
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: right;
+}
