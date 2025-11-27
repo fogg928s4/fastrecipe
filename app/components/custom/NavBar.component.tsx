@@ -14,6 +14,7 @@ export function NavBarFigure() {
                 href="/index"
                 className="image"
 
+ //               innerContent= {process.env(LOGO_PATH);}
                  
             />
         </figure>
