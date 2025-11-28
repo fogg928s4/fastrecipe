@@ -1,0 +1,28 @@
+@use '../base/variables';
+
+@mixin button($bg-colour: black, $font-colour: white) {
+    background-color: $bg-color;
+    color: $font-colour;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 32px;
+    margin: 4px 20px;
+    border-radius: 50px;
+}
+
+.find_btn {
+    @include button($bg-color: variables.$green-btn-colour);
+    
+}
+
+.find_btn:hover{
+    background-color: variables.$green-btn-colour-hover;
+}
+
+.sub_btn {
+    @include button($bg-color: variables.$blue-btn-colour);
+}
+.sub_btn:hover{
+    background-color: variables.$blue-btn-colour-hover;
+}
